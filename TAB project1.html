@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <style>
+        #background{
+            display: flexbox;
+            height: 900px;
+            background-color: tomato;
+        }
+        .Bb{
+            width: 200px;
+            height: 200px;
+            border: 2px solid black;
+            background-color: wheat;
+            padding: 20px 20px 20px 20px;
+            margin: 0 auto;
+            position: relative;
+            top: 50%;
+            transform: translate(0, -50%);
+        }
+        .wb{
+            display: inline-flex;  
+            width: 180px;
+            height: 50px;
+            border-radius: 0%;
+            border: 2px dashed white;  
+            background-color: teal;
+            position: absolute;
+            left: 50%;
+            top: 50%;
+            transform: translate(-50%, -50%);
+        }
+        .b1{
+            width: 50px;
+            height: 50px;
+            border: 2px solid white;
+            background-color: teal;
+            margin: 0 auto;
+            clear: both;
+            position: absolute;
+            left: 50%;
+            top: 80%;
+            transform: translate(-50%, -50%);
+        }
+        .b2{
+            width: 50px;
+            height: 50px;
+            border: 2px solid white;
+            background-color: teal;
+            clear: both;
+            position: absolute;
+            left: 50%;
+            top: 20%;
+            transform: translate(-50%, -50%);
+        }
+    </style>
+</head>
+<body>
+    <div id="background">
+        <div class="Bb">
+            <div class ="wb"></div>
+            <div class ="b1"></div>
+            <div class ="b2"></div>
+        </div>
+    </div>
+</body>
+</html>
